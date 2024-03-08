@@ -1,0 +1,16 @@
+{
+    "iis.configDir": "",
+    "cmsis-csolution.actions": [
+        {
+            "path": "Project.csolution.yml",
+            "target": "Project",
+            "config": {
+                "run": "arm-debugger.flash: Flash Device",
+                "debug": "Arm Debugger"
+            }
+        }
+    ],
+    "files.associations": {
+        "stm32g4xx_hal.h": "c"
+    }
+}
